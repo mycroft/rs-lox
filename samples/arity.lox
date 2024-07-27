@@ -1,0 +1,7 @@
+fun testaroo(v1, v2) {
+    print v1;
+    print v2;
+}
+
+print testaroo(1, 2);
+print testaroo(1, 2, 3);

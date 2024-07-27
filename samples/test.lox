@@ -1,0 +1,12 @@
+fun abcd() {
+    print "hello world";
+}
+
+abcd();
+
+var z = fun abbbb() { print "hello"; };
+z();
+
+var y = () {
+    print "hello";
+}

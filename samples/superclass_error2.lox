@@ -1,0 +1,9 @@
+class Eclair {
+    cook() {
+        super.cook();
+        print "hello world!";
+    }
+}
+
+var a = Eclair();
+a.cook();

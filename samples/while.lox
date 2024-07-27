@@ -1,0 +1,12 @@
+var a = 10;
+var res = "";
+
+while (a > 0) {
+    a = a - 1;
+    res = res + "dak";
+    if (a) {
+        res = res + "-";
+    }
+}
+
+print res;

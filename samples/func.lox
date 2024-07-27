@@ -1,0 +1,41 @@
+fun add(a, b) {
+    print a + b;
+}
+
+var c = add(1, 2);
+
+fun concat_print(a, b) {
+    print a + b;
+}
+
+concat_print("hello ", "dak");
+
+fun print_time() {
+    print "time is ";
+    print clock();
+}
+
+print_time();
+
+var user = "patrick";
+
+fun print_random_number() {
+    print "Here is a random number, " + user + ":";
+    print random();
+}
+
+print_random_number();
+
+fun get_number(a, b) {
+    for (var i = 0; i < 10; i = i + 1) {
+        print "hi";
+        if (i == 3) {
+            return 42;
+        }
+    }
+    return a + b;
+    print "hello world";
+    return 4;
+}
+
+print get_number(1, 2);

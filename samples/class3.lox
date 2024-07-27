@@ -1,0 +1,6 @@
+class Bagel {
+}
+
+var bagel = Bagel();
+bagel.a = "this is a string...";
+print bagel.a;

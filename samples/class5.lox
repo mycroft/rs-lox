@@ -1,0 +1,22 @@
+class Bacon {
+    eat() {
+        print "Crunch crunch crunch!";
+    }
+
+    showProp() {
+        print this.a;
+    }
+
+    speak() {
+        print this;
+    }
+}
+
+Bacon().eat();
+
+var method = Bacon().speak;
+method();
+
+var b = Bacon();
+b.a = 1;
+b.showProp();
